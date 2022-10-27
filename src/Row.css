@@ -1,0 +1,49 @@
+.row {
+  color: white;
+  margin: 2.4vw 0;
+  width: 100%;
+}
+
+.row h2 {
+  margin-left: 4%;
+  font-size: 1.4vw;
+}
+
+.row_wrapper {
+  position: relative;
+  margin: 2vw 0;
+  border-radius: 0.4vw;
+}
+
+.slider_arrow {
+  background-color: rgb(22, 22, 22, 0.5);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  cursor: pointer;
+  z-index: 10;
+  opacity: 0;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+}
+
+.row_posters {
+  display: flex;
+  margin-left: 4vw;
+  width: max-content;
+  transition: all 0.2s ease;
+  transform: translateX(0);
+  position: relative;
+  z-index: 1;
+}
+
+.row_wrapper:hover .slider_arrow {
+  opacity: 1;
+}

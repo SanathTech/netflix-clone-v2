@@ -1,0 +1,43 @@
+.watchScreen {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+.watchScreen_nav {
+  position: fixed;
+  top: 0;
+  display: flex;
+  width: 100%;
+  z-index: 1;
+  height: 68px;
+  align-items: center;
+  background-image: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.7) 10%,
+    transparent
+  );
+}
+
+.watchScreen_back {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: white;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.iframe {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}

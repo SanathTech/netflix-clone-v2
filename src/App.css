@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+}
+
+.app {
+  background-color: #141414;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.row_shift_up {
+  margin-top: -14.7vw;
+}
